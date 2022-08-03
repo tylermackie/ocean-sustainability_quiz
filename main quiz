@@ -1,0 +1,244 @@
+print("welcome to my ocean Sustainability quiz!")
+name = input("What is your name?\n") #asks users name
+print("Hello " + name + "!\n")
+print("Welcome to my Ocean sustainability quiz, " + name + '!\n') #welcomes the user
+
+
+def start_quiz():
+    print("welcome to my quiz about ocean sustainability")
+
+
+def main():
+    score = 0
+    counter = 0
+    # question 1
+    while counter < 3:
+
+        def question(question, choices):
+            print(question)
+            for question in choices:
+                print(question)
+
+        question(
+            "Q1.What is the most littered item in the worlds ocean?",
+            ["A. Cigarette butts", "B. Plastic Bags", "C. Bottle Caps", "D. Plastic Containers"
+             ]) #asks user the questions with multiple answers to choose from
+        answer = input().lower()
+
+        if answer == "a":
+            print("Correct, the answer is A, cigarette butts are the most littered item in our ocean!\n")
+            score = score + 1 #adds to the users score
+            counter = 4
+        elif answer == "Cigarette butts":
+            print("Correct, the answer is Cigarette butts!\n")
+            score = score + 1
+            counter = 4
+            break
+        else:
+            counter = counter + 1
+            if counter == 3:
+                print("Incorrect! The correct answer is A. Cigarette butts\n"
+                      )
+            elif counter == 1 or 2:
+                print(
+                    "Incorrect! Try again...\n"
+                )
+    print("Your score is ", score) #prints users score
+    print('\n') #adds a line
+
+    # question 2
+    counter = 0
+    while counter < 3:
+
+        def question(question, choices):
+            print(question)
+            for question in choices:
+                print(question)
+
+        question(
+            "Q2. How many marine animals are estimated to be killed per year due to plastic pollution?",
+            ["A. 45,000", "B. 550,000", "C. 220,000", "D. 100,000"
+             ])
+        answer = input().lower()
+
+        if answer == "d":
+            print("Correct, the answer is d, 100,000!\n")
+            score = score + 1
+            counter = 4
+        elif answer == "100,000":
+            print("Correct, the answer is d, 100,000 marine animals are estimated to be killed per year!\n")
+            score = score + 1
+            counter = 4
+            break
+        else:
+            counter = counter + 1
+            if counter == 3:
+                print("incorrect! The correct answer is D, 100,000!\n"
+                      )
+            elif counter == 1 or 2:
+                print(
+                    "Incorrect! Try again...\n"
+                )
+    print("Your score is ", score)
+    print('\n')
+
+    # question 3
+    counter = 0
+    while counter < 3:
+
+        def question(question, choices):
+            print(question)
+            for question in choices:
+                print(question)
+
+        question(
+            "Q3. How much plastic is estimated to be dumped into our oceans daily?",
+            ["A. 2 million tons", "B. 8 billion tons", "C. 2 billion tons", "D. 8 million tons"
+             ])
+        answer = input().lower()
+
+        if answer == "b":
+            print("Correct, the answer is B, 8 billion tons!\n")
+            score = score + 1
+            counter = 4
+        elif answer == "8 billion tons":
+            print("Correct, the answer 8 billion tons!\n")
+            score = score + 1
+            counter = 4
+            break
+        else:
+            counter = counter + 1
+            if counter == 3:
+                print("incorrect! The correct answer is B, 8 million tons!\n"
+                      )
+            elif counter == 1 or 2:
+                print(
+                    "Incorrect! Try again...\n"
+                )
+    print("Your score is ", score)
+    print('\n')
+
+    # question 4
+    while counter < 3:
+
+        def question(question, choices):
+            print(question)
+            for question in choices:
+                print(question)
+
+        question(
+            "Q4. How many people helped clean up the ocean coasts during last years international coastal cleanup?",
+            ["A. 7 million", "B. 800,000", "C. 17,000,000", "D. 1,500,000"
+             ])
+        answer = input().lower()
+
+        if answer == "c":
+            print("Correct, the answer is c, 17 million people helped during last years international coastal "
+                  "cleanup!\n")
+            score = score + 1
+            counter = 4
+        elif answer == "17,000,000":
+            print("Correct, the answer is c, 17 million people helped during last years international coastal "
+                  "cleanup!\n")
+            score = score + 1
+            counter = 4
+            break
+        else:
+            counter = counter + 1
+            if counter == 3:
+                print("Incorrect! The correct answer is c, 17 million people helped during last years international "
+                      "coastal cleanup!\n")
+            elif counter == 1 or 2:
+                print(
+                    "Incorrect! Try again...\n"
+                )
+    print("Your score is ", score)
+    print('\n')
+
+    print("For the next 2 questions, please answer with true/T or false/T")
+
+    # question 5
+    while counter < 3:
+
+        def question(question, choices):
+            print(question)
+            for question in choices:
+                print(question)
+
+        question(
+            "Q5. How many sea turtles die yearly due to plastic pollution",
+            ["A. 10,000", "B. 20,000", "C. 1,000", "D. 35,000"
+             ])
+        answer = input().lower()
+
+        if answer == "a":
+            print("Correct, 1,000 sea turtles die each year just due to ocean pollution, which leads to them "
+                  "being one of the most endangered marine animal in the ocean!\n")
+            score = score + 1
+            counter = 4
+        elif answer == "T":
+            print("Correct, 1,000 sea turtles die each year just due to ocean pollution, which leads to them "
+                  "being one of the most endangered marine animal in the ocean!\n")
+            score = score + 1
+            counter = 4
+            break
+        else:
+            counter = counter + 1
+            if counter == 3:
+                print(
+                    "Incorrect! 1,000 sea turtles die each year just due to ocean pollution, which leads to them "
+                    "being one of the most endangered marine animal in the ocean!\n")
+            elif counter == 1 or 2:
+                print(
+                    "Incorrect! Try again...\n"
+                )
+    print("Your score is ", score)
+    print('\n')
+
+    # question 5
+    while counter < 3:
+
+        def question(question, choices):
+            print(question)
+            for question in choices:
+                print(question)
+
+        question(
+            "Q5. what country causes the most plastic pollution?",
+            ["A. China", "B. India", "C. Afghanistan", "D. USA"
+             ])
+        answer = input().lower()
+
+        if answer == "d":
+            print("Correct, USA are the leading contributors to our ocean pollution with 42 billion KG littered!\n")
+            score = score + 1
+            counter = 4
+        elif answer == "T":
+            print("Correct, USA are the leading contributors to our ocean pollution with 42 billion KG littered!\n")
+            score = score + 1
+            counter = 4
+            break
+        else:
+            counter = counter + 1
+            if counter == 3:
+                print(
+                    "Incorrect! USA are the leading contributors to our ocean pollution with 42 billion KG littered!\n")
+            elif counter == 1 or 2:
+                print(
+                    "Incorrect! Try again...\n"
+                )
+    print("Your score is ", score)
+    print('\n')
+
+    print("Thank you for playing my quiz, " + name +
+          "!")
+    print("Your final score is {}".format(score)) #prints the users final score
+
+    restart = input("Do you want to play again? (please answer with yes or no)\n").lower() #asks user if they want to restart
+    if restart == "yes":
+        main() #restarts code from question 1
+    else:
+        quit() #ends the code
+
+
+main()
